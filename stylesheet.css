@@ -1,0 +1,48 @@
+/*Setting up the variables */
+:root{
+    --light-green: #eef0e2;
+    --darker-green: #2d7563;
+    --dark-green: #a3dfbf;
+    --leaves: #8cc89e;
+
+}
+
+
+body{
+    background-color: var(--light-green);
+}
+
+
+h1{
+    color: var(--darker-green);
+    width:fit-content;
+    font-size: xx-large;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--dark-green);
+}
+
+header h1{
+    padding-left: 50px;
+    background-color: var(--leaves);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-left: 20px;
+    list-style-type: none;
+    border-bottom: solid #000000;
+}
+
+section h1{
+    
+}
+
