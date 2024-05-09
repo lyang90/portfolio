@@ -1,4 +1,4 @@
-/*Setting up the variables */
+/*Got color palette from Coolors https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25*/
 :root{
     --color1: #606C38;
     --color2: #283618;
@@ -8,16 +8,18 @@
 
 }
 
-
+/*Setting the background color and margin */
 body{
     background-color: var(--color3);
     margin: 0px;
 }
 
+/* Setting the width to fill the screen*/
 main{
     width: 100%;
 }
 
+/*Setting the header 1 features */
 h1{
     color: #000000;
     width:fit-content;
@@ -25,6 +27,7 @@ h1{
     font-family:'Times New Roman', Times, serif;    
 }
 
+/*Manipulating the header 1 and list to be on the same line using flex*/
 header{
     display: flex;
     flex-direction: row;
@@ -32,6 +35,7 @@ header{
     background-color: var(--color2);
 }
 
+/* Customizing the header 1 and the spacing around it*/
 header h1{
     color: var(--color3);
     padding: 5px 10px 5px 50px;
@@ -39,6 +43,7 @@ header h1{
     font-family:'Times New Roman', Times, serif;
 }
 
+/*Doing the same thing to the header in the unordered list*/
 header ul{
     display: flex;
     flex-direction: row;
@@ -58,6 +63,7 @@ li h3{
     margin-bottom: 0px;
 }
 
+/*Separate section for the space between the header and the body*/
 .title{
     position: relative;
     background-image: url(./images/froggies.jpg);
@@ -65,6 +71,7 @@ li h3{
     padding: 30px 10px 5px;
 }
 
+/*Set the title at the bottom right*/
 .title h1{
     background-color: var(--color1);
     color: var(--color3);
@@ -87,6 +94,7 @@ section{
     flex-direction: row;
 }
 
+/*Sets the line at the right of the h1 and the min width.*/
 section h1{
     text-align: right;
     min-width: 200px;
@@ -103,11 +111,13 @@ p{
     font-family:'Times New Roman', Times, serif;
 }
 
+/*Sets the size of the large image.*/
 .big-image{
     height: 600px;
     width: 100%;
 }
 
+/*Sets the size of the smaller images.*/
 .row .content{
     height: 200px;
     width: 50%;
@@ -118,6 +128,8 @@ p{
     flex-direction: column;
 }
 
+/*Styling for the content of the Work section.*/
+/*Applies to all 5 elements*/
 .content{
     position: relative;
     border: solid --var(--color2);
@@ -143,6 +155,7 @@ p{
     
 }
 
+/*Sets the styling for the box of text inside each image.*/
 .card{
     position: absolute;
     background-color: var(--color5);
