@@ -7,9 +7,7 @@ This project was made to better my understanding of CSS and more of how to go ab
 
 This project is used a webpage for showcasing your work to employers and also a good basic webpage to build off and edit or play with to understand more advanced CSS.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![image of deployed website] (images/screenshot (61).png)
+![image of deployed website] ("C:\Users\Lily Yang\bootcamp\portfolio\images\Screenshot (61).png")
 
 ## Credits
 The images with the puzzle pieces, calculator, and image of a laptop with code was all take from the Pexels. The other were taken from various other sites which will be linked below.
