@@ -7,7 +7,7 @@ This project was made to better my understanding of CSS and more of how to go ab
 
 This project is used a webpage for showcasing your work to employers and also a good basic webpage to build off and edit or play with to understand more advanced CSS.
 
-![]("images/Screenshot (61).png")
+![](images/Screenshot (61).png)
 
 ## Credits
 The images with the puzzle pieces, calculator, and image of a laptop with code was all take from the Pexels. The other were taken from various other sites which will be linked below.
