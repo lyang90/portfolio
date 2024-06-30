@@ -20,6 +20,8 @@ The images with the puzzle pieces, calculator, and image of a laptop with code w
 The color palate was from Palette.
 - Colors palate: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
 
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
 
 ## Features
 The webpage can be used by clicking links and being directed to the right section or will be redirected to google.com for filler links projects. The other links in the page will be direct the user to where they're suppose to.
